@@ -18,7 +18,7 @@
                     context.SaveChanges();
                     toWallet.Balance += amountToTrnsfer;
                     context.SaveChanges();
-
+                    // To Commit All operations
                     transaction.Commit();
                 }
             }
