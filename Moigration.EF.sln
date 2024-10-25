@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF.ExternalConfiguration", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.UsingDependencyInjection", "EF.UsingDependencyInjection\EF.UsingDependencyInjection.csproj", "{3F3291DF-C67F-4D90-AD43-CEED0B69199A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingContextFactory", "UsingContextFactory\UsingContextFactory.csproj", "{20D1FD6F-9904-42E5-826B-24AC022BF6EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{3F3291DF-C67F-4D90-AD43-CEED0B69199A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F3291DF-C67F-4D90-AD43-CEED0B69199A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F3291DF-C67F-4D90-AD43-CEED0B69199A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D1FD6F-9904-42E5-826B-24AC022BF6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D1FD6F-9904-42E5-826B-24AC022BF6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D1FD6F-9904-42E5-826B-24AC022BF6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D1FD6F-9904-42E5-826B-24AC022BF6EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
