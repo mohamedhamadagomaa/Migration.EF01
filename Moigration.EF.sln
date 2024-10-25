@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF.InternalConfiguration", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF.ExternalConfiguration", "EF.ExternalConfiguration\EF.ExternalConfiguration.csproj", "{4369C31D-ABFA-4EA9-8538-F636B4E9A9B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.UsingDependencyInjection", "EF.UsingDependencyInjection\EF.UsingDependencyInjection.csproj", "{3F3291DF-C67F-4D90-AD43-CEED0B69199A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF.UsingDependencyInjection", "EF.UsingDependencyInjection\EF.UsingDependencyInjection.csproj", "{3F3291DF-C67F-4D90-AD43-CEED0B69199A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingContextFactory", "UsingContextFactory\UsingContextFactory.csproj", "{20D1FD6F-9904-42E5-826B-24AC022BF6EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingContextFactory", "UsingContextFactory\UsingContextFactory.csproj", "{20D1FD6F-9904-42E5-826B-24AC022BF6EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.DbContextLifeTime", "EF.DbContextLifeTime\EF.DbContextLifeTime.csproj", "{8D47E300-4BE8-4EB5-AEB8-16D0BCA4BA7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{20D1FD6F-9904-42E5-826B-24AC022BF6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20D1FD6F-9904-42E5-826B-24AC022BF6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20D1FD6F-9904-42E5-826B-24AC022BF6EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D47E300-4BE8-4EB5-AEB8-16D0BCA4BA7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D47E300-4BE8-4EB5-AEB8-16D0BCA4BA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D47E300-4BE8-4EB5-AEB8-16D0BCA4BA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D47E300-4BE8-4EB5-AEB8-16D0BCA4BA7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
